@@ -30,7 +30,7 @@ body{
 p{
      display: grid;
      text-align: center;
-     width: 500px;
+     width: 400px;
      height: 700px;
      color: black;
      border-style:dashed;
@@ -49,8 +49,8 @@ photo{
      background-image: url(./4199de6074b57e3b695380610ac1d291.gif);
      font-family: "Times New Roman", serif;
      text-align: center;
-     width: 500px;
-     height: 450px;
+     width: 400px;
+     height: 400px;
      object-fit: cover;
      border-radius: 15px 15px;
 }
