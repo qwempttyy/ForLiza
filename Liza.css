@@ -31,7 +31,7 @@ p{
      display: grid;
      text-align: center;
      width: 400px;
-     height: 700px;
+     height: 720px;
      color: black;
      border-style:dashed;
      border-radius: 15px 15px;
@@ -64,4 +64,5 @@ y{
      font-family: "Times New Roman", serif;
      font-size: 20px;
 }
+
 
