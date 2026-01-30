@@ -34,7 +34,7 @@ v{
      background-size: 470px;
      text-indent: 500px; 
      text-align: left;
-     margin-left: -50px;
+     margin-left: -75px;
      width: 300px;
      height: 420px;
      color: black;
@@ -47,7 +47,7 @@ w{
      background-size: 600px;
      text-indent: -200px;
      text-align: left;
-     margin-left: 50px;
+     margin-left: 75px;
      width: 300px;
      height: 420px;
      color: black;
@@ -56,9 +56,10 @@ w{
 }
 e{
      background-image: url(./photo3.png);
-     background-position: -450px -250px;
+     background-position: -170px -60px;
+     background-size: 650px;
      text-align: left;
-     margin-left: -50px;
+     margin-left: -75px;
      width: 300px;
      height: 420px;
      color: black;
@@ -67,9 +68,10 @@ e{
 }
 r{
      background-image: url(./photo4.png);
-     background-position: -200px -150px;
+     background-position: -60px -110px;
+      background-size: 550px;
      text-align: left;
-     margin-left: 50px;
+     margin-left: 75px;
      width: 300px;
      height: 420px;
      color: black;
@@ -78,9 +80,10 @@ r{
 }
 t{
      background-image: url(./photo5.png);
-     background-position: -200px -290px;
+     background-position: -70px -200px;
+     background-size: 500px;
      text-align: left;
-     margin-left: -50px;
+     margin-left: -75px;
      width: 300px;
      height: 420px;
      color: black;
@@ -89,10 +92,10 @@ t{
 }
 y{
      background-image: url(./photo7.png);
-     background-position: -300px -300px;
-     background-size: 1000px;
+     background-position: -100px -110px;
+     background-size: 500px;
      text-align: left;
-     margin-left: 50px;
+     margin-left: 75px;
      width: 300px;
      height: 420px;
      color: black;
@@ -101,24 +104,24 @@ y{
 }
 u{
      background-image: url(./photo6.png);
-     background-position: -100px -300px;
-     background-size: 780px;
+     background-position: -50px -250px;
+     background-size: 500px;
      text-align: left;
-     margin-left: -50px;
+     margin-left: -75px;
      width: 300px;
-     height: 620px;
+     height: 420px;
      color: black;
      border-style:dashed;
      border-radius: 15px 15px;
 }
 i{
      background-image: url(./photo8.png);
-     background-position: -150px -300px;
-     background-size: 800px;
+     background-position: -80px -200px;
+     background-size: 500px;
      text-align: left;
-     margin-left: 50px;
+     margin-left: 75px;
      width: 300px;
-     height: 620px;
+     height: 420px;
      color: black;
      border-style:dashed;
      border-radius: 15px 15px;
