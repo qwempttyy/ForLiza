@@ -30,24 +30,26 @@ body{
 
 v{
      background-image: url(./photo1.png);
-     background-position: -130px -80px;
+     background-position: -120px -200px;
+     background-size: 470px;
      text-indent: 500px; 
      text-align: left;
-     margin-left: -200px;
-     width: 400px;
-     height: 720px;
+     margin-left: -50px;
+     width: 300px;
+     height: 420px;
      color: black;
      border-style:dashed;
      border-radius: 15px 15px;
 }
 w{
      background-image: url(./photo2.png);
-     background-position: -230px -300px;
+     background-position: -125px -300px;
+     background-size: 600px;
      text-indent: -200px;
      text-align: left;
-     margin-left: 200px;
-     width: 400px;
-     height: 720px;
+     margin-left: 50px;
+     width: 300px;
+     height: 420px;
      color: black;
      border-style:dashed;
      border-radius: 15px 15px;
@@ -56,9 +58,9 @@ e{
      background-image: url(./photo3.png);
      background-position: -450px -250px;
      text-align: left;
-     margin-left: -200px;
-     width: 400px;
-     height: 720px;
+     margin-left: -50px;
+     width: 300px;
+     height: 420px;
      color: black;
      border-style:dashed;
      border-radius: 15px 15px;
@@ -67,9 +69,9 @@ r{
      background-image: url(./photo4.png);
      background-position: -200px -150px;
      text-align: left;
-     margin-left: 200px;
-     width: 400px;
-     height: 720px;
+     margin-left: 50px;
+     width: 300px;
+     height: 420px;
      color: black;
      border-style:dashed;
      border-radius: 15px 15px;
@@ -78,9 +80,9 @@ t{
      background-image: url(./photo5.png);
      background-position: -200px -290px;
      text-align: left;
-     margin-left: -200px;
-     width: 400px;
-     height: 720px;
+     margin-left: -50px;
+     width: 300px;
+     height: 420px;
      color: black;
      border-style:dashed;
      border-radius: 15px 15px;
@@ -90,9 +92,9 @@ y{
      background-position: -300px -300px;
      background-size: 1000px;
      text-align: left;
-     margin-left: 200px;
-     width: 400px;
-     height: 720px;
+     margin-left: 50px;
+     width: 300px;
+     height: 420px;
      color: black;
      border-style:dashed;
      border-radius: 15px 15px;
@@ -102,9 +104,9 @@ u{
      background-position: -100px -300px;
      background-size: 780px;
      text-align: left;
-     margin-left: -200px;
-     width: 400px;
-     height: 720px;
+     margin-left: -50px;
+     width: 300px;
+     height: 620px;
      color: black;
      border-style:dashed;
      border-radius: 15px 15px;
@@ -114,15 +116,15 @@ i{
      background-position: -150px -300px;
      background-size: 800px;
      text-align: left;
-     margin-left: 200px;
-     width: 400px;
-     height: 720px;
+     margin-left: 50px;
+     width: 300px;
+     height: 620px;
      color: black;
      border-style:dashed;
      border-radius: 15px 15px;
 }
 b{
-     font-size: 40px;
+     font-size: 25px;
      font-family: "Times New Roman", serif;
      font-style: oblique; 
 }
