@@ -31,7 +31,7 @@ p{
      display: grid;
      text-align: center;
      width: 400px;
-     height: 720px;
+     height: 689px;
      color: black;
      border-style:dashed;
      border-radius: 15px 15px;
@@ -56,7 +56,7 @@ photo{
 }
 y{
      display: flex;
-     margin-top: 1000000px;
+     margin-top: 10000px;
      text-align: center;
 
      
