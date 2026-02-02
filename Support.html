@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./Vosp.css">
+    <link rel="stylesheet" href="./Support.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -25,25 +25,36 @@
             <a href="./Support.html">Поддержка</a>
         </mb4>
     </box>
+    <br>
+    <v>
 
-    <b>
+
+    </v>   
+    <br> 
+    <w></w> 
+    <br>
+    <e>
+        Если трудно решить
         <br>
-        Воспоминания    
-    </b> 
-    <o>
-        13 октября(первый поцелуй)
+        1 или 2
+    </e> 
+    <br>     
+    <r>
         <br>
-        15 октября(встречаемся)
         <br>
-        25 октября (впервые потрогал грудь)
-        <br>
-        30 октября (первый засос на теле)
-        <br>
-        Ноябрь-Декабрь (изучали друг друга)
-        <br>
-        10 января 02:00 (первый раз)
-        <photo>
-        </photo>
-    </o>
+       <y id="autoRandom" style=" color: white;"></y>
+    </r>  
+    <br>
+    <button onclick="changeNumber()">ЖМИ!!!</button> 
+    <script>
+        let currentNumber = 0;
+        
+        function changeNumber() {
+            
+            currentNumberr = Math.floor(Math.random() * 2) + 1;
+            
+            document.getElementById("autoRandom").textContent = currentNumberr;
+        }
+    </script>
 </body>
 </html>
