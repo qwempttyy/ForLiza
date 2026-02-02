@@ -4,85 +4,85 @@ head{
     box-sizing: border-box;
 }
 body{
-     padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 
-     padding-top: constant(safe-area-inset-top);
-     padding-right: constant(safe-area-inset-right);
-     padding-bottom: constant(safe-area-inset-bottom);
-     padding-left: constant(safe-area-inset-left);
+    padding-top: constant(safe-area-inset-top);
+    padding-right: constant(safe-area-inset-right);
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-left: constant(safe-area-inset-left);
 
-     background: linear-gradient(to top, #fff1eb 0%, pink 90%);
-     background-size: cover;
-     background-repeat: no-repeat; 
-     background-attachment: fixed; 
-     background-position: center; 
+    background: linear-gradient(to top, #fff1eb 0%, pink 90%);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
 
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 
-     justify-content: center;
-     font-family: "Times New Roman", serif;
-     font-size: 20px;
+    justify-content: center;
+    font-family: "Times New Roman", serif;
+    font-size: 20px;
 }
 Box{
-     width: 400px;
-     height: 100px;
-     font-size: 14px;
-     background-image: url(./Sprite-0001.png);
-     background-position: -5000px;
-     position: sticky;
-     top: 0;
-     left: 20px;
-     height: 50px;
+    width: 400px;
+    height: 100px;
+    font-size: 14px;
+    background-image: url(./Sprite-0001.png);
+    background-position: -5000px;
+    position: sticky;
+    top: 0;
+    left: 20px;
+    height: 50px;
 }
 mb1{
    margin-left: 15px;  
 }
 mb2{
-     margin-left: 17px;
+    margin-left: 17px;
 }
 mb3{
-     margin-left: 27px;
+    margin-left: 27px;
 }
 mb4{
-     margin-left: 34px;
+    margin-left: 120px;
 }
 v{
-     background-color: rgb(236, 142, 197);
-     border: 10px solid rgb(228, 63, 178);
-     border-radius: 60% 20% / 10% 50%;
-     width: 400px;
-     height: 400px;
+    background-color: rgb(236, 142, 197);
+    border: 10px solid rgb(228, 63, 178);
+    border-radius: 60% 20% / 10% 50%;
+    width: 400px;
+    height: 400px;
 }
 r{
-     background-color: rgb(236, 142, 197);
-     border: 10px solid rgb(228, 63, 178);
-     border-radius: 50%;
-     width: 100px;
-     height: 100px; 
+    background-color: rgb(236, 142, 197);
+    border: 10px solid rgb(228, 63, 178);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px; 
 }
 e{
-     text-align: center;
+    text-align: center;
 }
 
 .square {
     display: flex;
-     width: 40px;
-     flex-direction: row;
-     justify-content: center;
-     align-items: center;
-     height: 40px;
-     background-color:rgb(229, 130, 200);
-     transition-property: 6s;
-     color: white;
-     border-style: double;
-     border-radius: 0px;
-     margin: -20px 0%;
-     margin-left: 27px;
-     color: aliceblue; 
+    width: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color:rgb(229, 130, 200);
+    transition-property: 6s;
+    color: white;
+    border-style: double;
+    border-radius: 0px;
+    margin: -20px 0%;
+    margin-left: 27px;
+    color: aliceblue; 
 }
 
 .button {

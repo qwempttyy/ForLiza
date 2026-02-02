@@ -25,7 +25,7 @@ mb3{
      margin-left: 27px;
 }
 mb4{
-     margin-left: 34px;
+     margin-left: 120px;
 }
 body{
      padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
@@ -88,4 +88,18 @@ y{
      font-family: "Times New Roman", serif;
      font-size: 20px;
 }
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #eb70c6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
 
+button:hover {
+    background-color: #da50da;
+    transform: scale(1.05);
+}
