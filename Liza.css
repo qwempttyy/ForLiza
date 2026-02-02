@@ -4,19 +4,19 @@ head{
     box-sizing: border-box;
 }
 
-Box{
-     width: 400px;
-     height: 100px;
+box{
      font-size: 14px;
      background-image: url(./Sprite-0001.png);
+     width: 400px;
+     height: 100px;
      background-position: -5000px;
      position: sticky;
      top: 0;
      left: 20px;
-     height: 50px;
+     height: 70px;
 }
 mb1{
-   margin-left: 15px;  
+     margin-left: 15px;  
 }
 mb2{
      margin-left: 17px;
@@ -51,6 +51,13 @@ body{
      font-family: "Times New Roman", serif;
      font-size: 20px;
 }
+u{
+     background-image: url(./Sprite-0006.png); 
+     background-size: 200px;
+     width: 200px;
+     height: 200px;
+    
+}
 p{
      display: grid;
      text-align: center;
@@ -59,8 +66,10 @@ p{
      color: black;
      border-style:dashed;
      border-radius: 15px 15px;
+     
 }
 b{
+     margin: -25px;
      font-size: 70px;
      font-family: "Times New Roman", serif;
      font-style: oblique; 

@@ -11,6 +11,7 @@
 <body>
     <box> 
         <br>
+        <br>
         <mb1>
             <a href="./index.html">Валентинка</a>
         </mb1> 
@@ -28,16 +29,17 @@
         </mb4>
     </box>
 
-    <b>
-        Валентинка
-    </b>
-    
+    <br>
     <timer>
         <div class="start-date" id="start-date-display"></div>
         <div class="days-number" id="days-counter">0</div>
-           
+        <div>Дней</div>    
     </timer>
-
+    <u>
+    </u>
+    <b>
+        Валентинка
+    </b>
     <p>
         Ты самая нежная, очаровательная, неотразимая, милая, удивительная, неповторимая, понимающая, заботливая, 
         душевная, теплая, надежная, искренняя, чуткая, мудрая, благородная, гармоничная, легкая, блестящая, остроумная, талантливая, энергичная, страстная, 
@@ -67,10 +69,8 @@
         window.location.href = "./Bonus.html";
     });
 
-    // ФИКСИРОВАННАЯ ДАТА - ИЗМЕНИТЕ ЗДЕСЬ!
         const fixedStartDate = new Date('2025-10-15');
         
-        // Отображение даты
         document.getElementById('start-date-display').textContent 
         
         function calculateDays() {
@@ -85,12 +85,10 @@
             
             const counterElement = document.getElementById('days-counter');
             counterElement.textContent = diffDays;
-            
         }
-        
-        // Вызываем функцию сразу и каждый день
+
         calculateDays();
-        setInterval(calculateDays, 86400000); // Обновлять каждые 24 часа
+        setInterval(calculateDays, 86400000); 
 </script>
 </body>
 
