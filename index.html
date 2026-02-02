@@ -32,6 +32,12 @@
         Валентинка
     </b>
     
+    <timer>
+        <div class="start-date" id="start-date-display"></div>
+        <div class="days-number" id="days-counter">0</div>
+           
+    </timer>
+
     <p>
         Ты самая нежная, очаровательная, неотразимая, милая, удивительная, неповторимая, понимающая, заботливая, 
         душевная, теплая, надежная, искренняя, чуткая, мудрая, благородная, гармоничная, легкая, блестящая, остроумная, талантливая, энергичная, страстная, 
@@ -60,6 +66,31 @@
     document.getElementById('button').addEventListener('click', function() {
         window.location.href = "./Bonus.html";
     });
+
+    // ФИКСИРОВАННАЯ ДАТА - ИЗМЕНИТЕ ЗДЕСЬ!
+        const fixedStartDate = new Date('2025-10-15');
+        
+        // Отображение даты
+        document.getElementById('start-date-display').textContent 
+        
+        function calculateDays() {
+            const today = new Date();
+            
+            const start = new Date(fixedStartDate);
+            start.setHours(0, 0, 0, 0);
+            today.setHours(0, 0, 0, 0);
+            
+            const diffTime = today - start;
+            const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+            
+            const counterElement = document.getElementById('days-counter');
+            counterElement.textContent = diffDays;
+            
+        }
+        
+        // Вызываем функцию сразу и каждый день
+        calculateDays();
+        setInterval(calculateDays, 86400000); // Обновлять каждые 24 часа
 </script>
 </body>
 
