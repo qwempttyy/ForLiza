@@ -27,7 +27,39 @@ body{
      font-family: "Times New Roman", serif;
      font-size: 20px;
 }
+o{
+     display: grid;
+     text-align: center;
+     width: 300px;
+     height: 490px;
+     color: black;
+     border-style:dashed;
+     border-radius: 15px 15px;
 
+     justify-content: center;
+     font-family: "Times New Roman", serif;
+     font-size: 20px;
+}
+photo{
+     background-image: url(./photo9.png);
+     background-size: 300px;
+     background-position: 0px -70px;
+     font-family: "Times New Roman", serif;
+     text-align: center;
+     width: 300px;
+     height: 300px;
+     object-fit: cover;
+     border-radius: 15px 15px;
+}
+a{
+     display: grid;
+     text-align: center;
+     width: 300px;
+     height: 400px;
+     color: black;
+     border-style:dashed;
+     border-radius: 15px 15px;
+}
 v{
      background-image: url(./photo1.png);
      background-position: -120px -200px;
@@ -127,6 +159,12 @@ i{
      border-radius: 15px 15px;
 }
 b{
+     font-size: 25px;
+     font-family: "Times New Roman", serif;
+     font-style: oblique; 
+     text-align: center;
+}
+d{
      font-size: 25px;
      font-family: "Times New Roman", serif;
      font-style: oblique; 
