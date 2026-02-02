@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="./Support.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Поддержка</title>
 </head>
 <body>
     <box> 
@@ -34,7 +34,7 @@
     <w></w> 
     <br>
     <e>
-        Если трудно решить
+        Если трудно что-то решить
         <br>
         1 или 2
     </e> 
@@ -42,19 +42,44 @@
     <r>
         <br>
         <br>
-       <y id="autoRandom" style=" color: white;"></y>
+       <div class="square" id="square"></div>
+    </div>
     </r>  
     <br>
-    <button onclick="changeNumber()">ЖМИ!!!</button> 
+
+    <button class="button" id="rotateButton">Жми!!!</button>
+    <button claSS="buttonnull" id="nullButton">Обнулить</button>
+
     <script>
         let currentNumber = 0;
         
-        function changeNumber() {
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const square = document.getElementById('square');
+            const button = document.getElementById('rotateButton');
+            const buttonnull = document.getElementById('nullButton');
             
-            currentNumberr = Math.floor(Math.random() * 2) + 1;
+
+            button.addEventListener ('click', function() {
+                square.style.animation = 'none';
+                
+                void square.offsetWidth;
+
+                currentNumberr = Math.floor(Math.random() * 2) + 1;
             
-            document.getElementById("autoRandom").textContent = currentNumberr;
-        }
+                square.style.animation = 'rotateOnce 1s linear forwards';
+
+                button.disabled = true;
+                
+                setTimeout(() => {
+                    button.disabled = false;
+                    document.getElementById("square").textContent = currentNumberr;
+                }, 1000);
+            });
+            buttonnull.addEventListener ('click', function() {
+                document.getElementById("square").textContent = "";
+            });
+        })
     </script>
 </body>
 </html>

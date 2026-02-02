@@ -67,7 +67,7 @@ r{
 e{
      text-align: center;
 }
-y{
+/*y{
      display: flex;
      width: 40px;
      flex-direction: row;
@@ -78,9 +78,60 @@ y{
      transition-property: 6s;
      color: white;
      border-style: double;
-     border-radius: 40px;
+     border-radius: 0px;
      margin: -20px 0%;
      margin-left: 27px;
      color: aliceblue; 
      
+}*/
+.square {
+    display: flex;
+     width: 40px;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     height: 40px;
+     background-color:rgb(229, 130, 200);
+     transition-property: 6s;
+     color: white;
+     border-style: double;
+     border-radius: 0px;
+     margin: -20px 0%;
+     margin-left: 27px;
+     color: aliceblue; 
+}
+
+.button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #eb70c6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #da50da;
+    transform: scale(1.05);
+}
+
+.button:active {
+    transform: scale(0.98);
+}
+
+.button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    transform: none;
+}
+
+@keyframes rotateOnce {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
