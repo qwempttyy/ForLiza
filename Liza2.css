@@ -27,6 +27,7 @@ body{
      font-family: "Times New Roman", serif;
      font-size: 20px;
 }
+
 o{
      display: grid;
      text-align: center;
@@ -101,7 +102,7 @@ e{
 r{
      background-image: url(./photo4.png);
      background-position: -60px -110px;
-      background-size: 550px;
+     background-size: 550px;
      text-align: left;
      margin-left: 75px;
      width: 300px;

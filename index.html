@@ -45,12 +45,14 @@
     
 
     <y>
-
-        <button id="myButton" class="btn">Перейти</button>
-
+        <button id="myButton">Нажми</button>
     </y>
 
-    <script src="./Bt.js"></script>
+<script>
+    document.getElementById('myButton').addEventListener('click', function() {
+        window.location.href = "./Bonus.html";
+    });
+</script>
 </body>
 
 </html>

@@ -3,6 +3,25 @@ head{
     padding: 0;
     box-sizing: border-box;
 }
+/*menu{
+     display: flex;
+     flex-direction: row;
+     
+     menuu{
+          background-image: url(./Sprite-0001.png);
+          background-position: -6000px -110px;
+          background-size: 200px;
+          text-align: left;
+     }
+     menuuu{
+          background-image: url(./Sprite-0001.png);
+          background-position: -6000px -110px;
+          background-size: 200px;
+          text-align: left;
+         
+     }
+     
+}*/
 body{
      padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 
