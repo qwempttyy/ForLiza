@@ -36,10 +36,10 @@ body{
      padding-left: constant(safe-area-inset-left);
 
      /*background: linear-gradient(to top, #fff1eb 0%, pink 90%);*/
-     background-image: url(./bgin.png);
-     background-size: 1000px; 
-     background-size: cover;
-    background-repeat: no-repeat; 
+     background-image: url(./bgin.png); 
+     background-size: 1000px;
+     position: sticky;
+     background-repeat: no-repeat; 
      background-attachment: fixed; 
      background-position: center; 
 
