@@ -9,7 +9,7 @@ box{
      background-image: url(./Sprite-0001.png);
      width: 400px;
      height: 100px;
-     background-position: -5000px;
+     background-position: -100px;
      position: sticky;
      top: 0;
      left: 20px;
@@ -29,13 +29,17 @@ mb4{
 }
 body{
 
+     
      background-image: url('./bgin.png');
      background-size: 100% auto;
      background-position: top center;
      background-repeat: no-repeat;
-     background-attachment: scroll;
+     background-attachment:   fixed;
      min-height: 100vh;
-     
+     top: 0;
+     position: sticky;
+     left: 20px;
+     height: 50%;
      display: flex;
      flex-direction: column;
      align-items: center;
