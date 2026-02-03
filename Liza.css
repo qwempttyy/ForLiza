@@ -29,14 +29,13 @@ mb4{
 }
 body{
 
-     margin: 0;
-     padding: 0;
      background-image: url('./bgin.png');
-     background-size: cover;
-     background-position: center;
+     background-size: 100% auto;
+     background-position: top center;
      background-repeat: no-repeat;
      background-attachment: fixed;
      min-height: 100vh;
+     
      display: flex;
      flex-direction: column;
      align-items: center;
