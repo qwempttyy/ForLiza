@@ -32,9 +32,10 @@ body{
      
      background-image: url('./bgin.png');
      background-size: 100% auto;
-     background-position: top center;
+     background-position: center;
      background-repeat: no-repeat;
      background-attachment:   fixed;
+     background-size: cover;
      min-height: 100vh;
      top: 0;
      position: sticky;
