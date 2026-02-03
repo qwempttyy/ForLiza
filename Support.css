@@ -4,28 +4,21 @@ head{
     box-sizing: border-box;
 }
 body{
-    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
-
-    padding-top: constant(safe-area-inset-top);
-    padding-right: constant(safe-area-inset-right);
-    padding-bottom: constant(safe-area-inset-bottom);
-    padding-left: constant(safe-area-inset-left);
-
     background: linear-gradient(to top, #fff1eb 0%, pink 90%);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    background-position: center; 
+     background-size: cover;
+     background-repeat: no-repeat; 
+     background-attachment: fixed; 
+     background-position: center; 
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
 
 
-    justify-content: center;
-    font-family: "Times New Roman", serif;
-    font-size: 20px;
+     justify-content: center;
+     font-family: "Times New Roman", serif;
+     font-size: 20px;
 }
 Box{
     width: 400px;
