@@ -34,7 +34,7 @@ body{
      background-attachment: fixed;
      background-position: center;
      background-repeat: no-repeat;
-     background-size: cover;
+     background-size: contain;
      margin-top: 0px;
 
      display: flex;
