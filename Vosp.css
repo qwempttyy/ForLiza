@@ -4,29 +4,23 @@ head{
     box-sizing: border-box;
 }
 body{
-     padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
-
-     padding-top: constant(safe-area-inset-top);
-     padding-right: constant(safe-area-inset-right);
-     padding-bottom: constant(safe-area-inset-bottom);
-     padding-left: constant(safe-area-inset-left);
-
-     background: url(./bgvosp.png);
+     margin: 0;
+     padding: 0;
      background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     min-height: 100vh;
+     background-image: url(./bgvosp.png); 
+     background-size: 950px;
      background-repeat: no-repeat; 
      background-attachment: fixed; 
-     background-position: center; 
      position: sticky;
      top: 0;
-     height: 2100px;
-     
+     background-position: center; 
      display: flex;
      flex-direction: column;
-     justify-content: center;
      align-items: center;
-
-
-     justify-content: center;
      font-family: "Times New Roman", serif;
      font-size: 20px;
 }
