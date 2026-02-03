@@ -21,15 +21,15 @@ body{
      font-size: 20px;
 }
 Box{
-     width: 400px;
-     height: 100px;
      font-size: 14px;
-     background-image: url(./Sprite-0001.png);
-     background-position: -5000px;
-     position: sticky;
-     top: 0;
-     left: 20px;
-     height: 50px;
+    background-image: url(./Sprite-0001.png);
+    width: 400px;
+    height: 100px;
+    background-position: -100px;
+    position: sticky;
+    top: 0;
+    left: 20px;
+    height: 70px;
 }
 mb1{
    margin-left: 15px;  
@@ -38,13 +38,13 @@ mb2{
      margin-left: 17px;
 }
 mb3{
-     margin-left: 27px;
+     margin-left: 30px;
 }
 mb4{
-     margin-left: 120px;
+     margin-left: 43px;
 }
 o{
-     background-color: rgba(253, 171, 246, 0.5);
+     
      display: grid;
      text-align: center;
      width: 300px;
@@ -69,26 +69,29 @@ photo{
      border-radius: 15px 15px;
 }
 n{
-     background-color: rgba(253, 171, 246, 0.5);
+     background: url('./bgvosp.png');
+     background-size: cover;
+     background-position: -50px 0px;
      display: grid;
      text-align: center;
      width: 300px;
      height: 400px;
-     color: black;
+     color: rgb(0, 0, 0);
+     text-shadow: 
+    -1px -1px 0 rgb(253, 171, 246),
+    1px -1px 0 rgb(253, 171, 246),  
+    -1px 1px 0 rgb(253, 171, 246), 
+    1px 1px 0 rgb(253, 171, 246);
      border-style:dashed;
      border-radius: 15px 15px;
 }
 d{
-     background-color: rgba(253, 171, 246, 0.5);
+     
      border-radius: 15px 15px;
      font-size: 25px;
      font-family: "Times New Roman", serif;
      font-style: oblique; 
 }
-b{
-     background-color: rgba(253, 171, 246, 0.5);
-     border-radius: 15px 15px;
-}
 y{
-     margin-top: 1000px;
+     margin-top: 500px;
 }

@@ -9,6 +9,7 @@
 <body>
     <box> 
         <br>
+        <br>
         <mb1>
             <a href="./index.html">Валентинка</a>
         </mb1> 
@@ -17,9 +18,9 @@
             <a href="./Vospominaniya.html">Воспоминания</a>
         </mb2>
 
-        <!--<mb3>
-            <a href="./Vish.html">Вишлист</a>
-        </mb3>-->
+        <mb3>
+            <a href="./1or2.html">1 или 2</a>
+        </mb3>
 
         <mb4>
             <a href="./Support.html">Поддержка</a>
@@ -28,59 +29,6 @@
     <br>
     <v>
 
-    </v> 
-
-    <br> 
-    <w></w> 
-    <br>
-    
-    <e>
-        Если трудно что-то решить
-        <br>
-        1 или 2
-    </e> 
-    <br>     
-    <r>
-        <br>
-        <br>
-       <div class="square" id="square"></div>
-    </div>
-    </r>  
-    <br>
-
-    <button class="button" id="rotateButton">Жми!!!</button>
-    <button claSS="buttonnull" id="nullButton">Обнулить</button>
-
-    <script>
-        let currentNumber = 0;
-        
-
-        document.addEventListener('DOMContentLoaded', function() {
-            const square = document.getElementById('square');
-            const button = document.getElementById('rotateButton');
-            const buttonnull = document.getElementById('nullButton');
-            
-
-            button.addEventListener ('click', function() {
-                square.style.animation = 'none';
-                
-                void square.offsetWidth;
-
-                currentNumberr = Math.floor(Math.random() * 2) + 1;
-            
-                square.style.animation = 'rotateOnce 1s linear forwards';
-
-                button.disabled = true;
-                
-                setTimeout(() => {
-                    button.disabled = false;
-                    document.getElementById("square").textContent = currentNumberr;
-                }, 1000);
-            });
-            buttonnull.addEventListener ('click', function() {
-                document.getElementById("square").textContent = "";
-            });
-        })
-    </script>
+    </v>
 </body>
 </html>
