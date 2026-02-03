@@ -39,16 +39,12 @@ body{
      background-size: 1000px;
      background-repeat: no-repeat; 
      background-attachment: fixed; 
-     background-position: center; 
      position: sticky;
      top: 0;
+     background-position: center; 
      display: flex;
      flex-direction: column;
-     justify-content: center;
      align-items: center;
-
-
-     justify-content: center;
      font-family: "Times New Roman", serif;
      font-size: 20px;
 }
