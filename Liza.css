@@ -37,8 +37,7 @@ body{
 
      /*background: linear-gradient(to top, #fff1eb 0%, pink 90%);*/
      background-image: url(./bgin.png);
-     background-size: 1000px;
-     background-repeat: no-repeat; 
+     background-size: 1000px; 
      background-attachment: fixed; 
      background-position: center; 
 
