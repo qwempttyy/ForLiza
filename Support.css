@@ -4,7 +4,6 @@ head{
     box-sizing: border-box;
 }
 body{
-
     background: linear-gradient(to top, #fff1eb 0%, pink 90%);
     background-size: cover;
     background-repeat: no-repeat; 
@@ -50,36 +49,25 @@ v{
     border-radius: 60% 20% / 10% 50%;
     width: 400px;
     height: 400px;
-}
-r{
-    background-color: rgb(236, 142, 197);
-    border: 10px solid rgb(228, 63, 178);
-    border-radius: 50%;
-    width: 100px;
-    height: 100px; 
-}
-e{
-    text-align: center;
-}
-
-.square {
     display: flex;
-    width: 40px;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    background-color:rgb(229, 130, 200);
-    transition-property: 6s;
-    color: white;
-    border-style: double;
-    border-radius: 0px;
-    margin: -20px 0%;
-    margin-left: 27px;
-    color: aliceblue; 
 }
-
-.button {
+r{
+    background-image: url('./bgsup.png');
+    background-size: cover;
+    background-position: 0px -120px;
+    display: grid;
+    text-align: center;
+    width: 300px;
+    height: 170px;
+    color: black;
+    border-color: black;
+    border-style:ridge;
+    border-radius: 15px 15px;
+}
+button {
     padding: 12px 24px;
     font-size: 18px;
     background-color: #eb70c6;
@@ -90,22 +78,28 @@ e{
     transition: all 0.3s ease;
 }
 
-.button:hover {
+button:hover {
     background-color: #da50da;
     transform: scale(1.05);
 }
 
-.button:active {
+button:active {
     transform: scale(0.98);
 }
 
-.button:disabled {
-    background-color: #cccccc;
-    cursor: not-allowed;
-    transform: none;
-}
+y{
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
 
-.buttonnull {
+    justify-content: left;
+    font-family: "Times New Roman", serif;
+    font-size: 20px;
+}
+ 
+.box-1 {
+    display: flex;
+    
     padding: 12px 24px;
     font-size: 18px;
     background-color: #eb70c6;
@@ -114,18 +108,26 @@ e{
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
+
+    transition: all 0.2s ease 0s;
 }
 
-.buttonnull:hover {
-    background-color: #da50da;
-    transform: scale(1.05);
+.translated-on-hover:hover .box-1 {
+    translate: 75vw;
 }
 
-@keyframes rotateOnce {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+y{
+    margin-top: 1000px;
+    background-image: url('./clown.png');
+    background-repeat: no-repeat; 
+    
+    background-position: center; 
+    background-size: 100px 50px;
+    display: grid;
+    text-align: center;
+    width: 200px;
+    height: 65px;
+    
+
 }
+

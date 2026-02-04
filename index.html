@@ -30,17 +30,15 @@
     </box>
 
     <br>
+
+    <div class="start-date" id="start-date-display"></div>
+    <timer>
+        <div class="days-number" id="days-counter">0</div> 
+    </timer>
+    <br>
     <b>
         Валентинка
     </b>
-    <br>
-    <timer>
-        <div class="start-date" id="start-date-display"></div>
-        <div class="days-number" id="days-counter">0</div>
-        <div>дней вместе</div>    
-    </timer>
-    <u>
-    </u>
     <p>
         Ты самая нежная, очаровательная, неотразимая, милая, удивительная, неповторимая, понимающая, заботливая, 
         душевная, теплая, надежная, искренняя, чуткая, мудрая, благородная, гармоничная, легкая, блестящая, остроумная, талантливая, энергичная, страстная, 
@@ -62,7 +60,7 @@
     </p>     
 
     <y>
-        <button id="button">Нажми</button>
+        <button id="bbutton">Нажми</button>
     </y>
 
 <script>
@@ -85,7 +83,7 @@
             const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
             
             const counterElement = document.getElementById('days-counter');
-            counterElement.textContent = diffDays;
+            counterElement.textContent = diffDays + ' дней вместе 💞';
         }
 
         calculateDays();

@@ -74,7 +74,7 @@ f{
 }
 photo{
     
-     background-image: url(./4199de6074b57e3b695380610ac1d291.gif);
+     background-image: url(./heart.gif);
      font-family: "Times New Roman", serif;
      text-align: center;
      width: 400px;
@@ -102,23 +102,37 @@ button {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-
 button:hover {
     background-color: #da50da;
     transform: scale(1.05);
 }
-
 .start-date-display{
      display: none;
 }
 
 timer{
-     background-color: rgba(253, 171, 246, 0.5);
+     background-image: url('./bgday.jpg');
+     background-size: cover;
+     background-position: 0px -30px;
      display: grid;
      text-align: center;
      width: 300px;
-     height: 50px;
+     height: 200px;
      color: black;
      border-style:dashed;
      border-radius: 15px 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.days-number{
+     display: flex;
+     text-align: center;
+     width: 130px;
+     height: 170px;
+     text-shadow: 
+    -1px -1px 0 rgb(253, 171, 246),
+    1px -1px 0 rgb(253, 171, 246),  
+    -1px 1px 0 rgb(253, 171, 246), 
+    1px 1px 0 rgb(253, 171, 246);
 }

@@ -28,7 +28,161 @@
     </box>
     <br>
     <v>
-
+        <r>
+            <div class="days-number" id="result"></div>  
+        </r>
+        <br>
+        <br>
+        <button class="button" id="Button">Хочу поддержку</button>
     </v>
+    
+ <y>
+    <div class="translated-on-hover">
+        <button class="box-1">Суппер поддержка</button>
+    </div>
+</y>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const button = document.getElementById('Button');
+            const resultDiv = document.getElementById('result');
+
+            button.addEventListener('click', function() {
+                const currentNumber = Math.floor(Math.random() * 50) + 1;
+                
+                let message = '';
+                
+                if (currentNumber === 1) {
+                    message = 'Ты сильнее, чем думаешь 💗';
+                } else if (currentNumber === 2) {
+                    message = 'У тебя всё получится, я верю ✨';
+                } else if (currentNumber === 3) {
+                    message = 'Ты заслуживаешь самого лучшего 🌸';
+                } else if (currentNumber === 4) {
+                    message = 'Твои чувства важны 🌷';
+                } else if (currentNumber === 5) {
+                    message = 'Позволь себе отдых, если нужно 🫶';
+                } else if (currentNumber === 6) {
+                    message = 'Ты не одна, я с тобой 🥰';
+                } else if (currentNumber === 7) {
+                    message = 'Маленькие шаги тоже ведут к цели 🌟';
+                } else if (currentNumber === 8) {
+                    message = 'Ты уникальна и прекрасна 💖';
+                } else if (currentNumber === 9) {
+                    message = 'Завтра будет легче 🌼';
+                } else if (currentNumber === 10) {
+                    message = 'Дыши, ты справишься 🎀';
+                } else if (currentNumber === 11) {
+                    message = 'С каждым днём ты становишься мудрее ☀️';
+                } else if (currentNumber === 12) {
+                    message = 'Ты уже делаешь достаточно 🦋';
+                } else if (currentNumber === 13) {
+                    message = 'Я горжусь тобой 💘';
+                } else if (currentNumber === 14) {
+                    message = 'Доверься своему ритму 💞';
+                } else if (currentNumber === 15) {
+                    message = 'Ты не одна, я с тобой 💕';
+                } else if (currentNumber === 16) {
+                    message = 'Ты уже пережила столько 🫂';
+                } else if (currentNumber === 17) {
+                    message = 'Проси помощи, это нормально 🌺';
+                } else if (currentNumber === 18) {
+                    message = 'Счастье ждёт тебя впереди 💝';
+                } else if (currentNumber === 19) {
+                    message = 'Верь в себя, как я верю в тебя 💓';
+                }else if (currentNumber === 20) {
+                    message = 'Твоя улыбка — это чудо 💌';
+                } else if (currentNumber === 21) {
+                    message = 'Заботься о себе, как заботишься о других 🎀';
+                } else if (currentNumber === 22) {
+                    message = 'Ты имеешь право на счастье просто так 💝';
+                } else if (currentNumber === 23) {
+                    message = 'Этот день не определяет всю твою жизнь💗';
+                } else if (currentNumber === 24) {
+                    message = 'Позволь себе просто быть💖';
+                } else if (currentNumber === 25) {
+                    message = 'Ты восхитительна 💝';
+                } else if (currentNumber === 26) {
+                    message = 'Это тоже пройдёт 🌼';
+                } else if (currentNumber === 27) {
+                    message = 'Ты не обязана быть сильной каждую секунду 💘';
+                } else if (currentNumber === 28) {
+                    message = 'Я так рад, что ты есть 💝';
+                } else if (currentNumber === 29) {
+                    message = 'Ты справишься. Обязательно справишься 💖';
+                } else if (currentNumber === 30) {
+                    message = 'Ты — автор своей истории, и она будет прекрасной💗';
+                } else if (currentNumber === 31) {
+                    message = 'Иногда нужно просто остановиться и выдохнуть, это нормально💖';
+                } else if (currentNumber === 32) {
+                    message = 'Ты прошла через столькое — и всё это сделало тебя такой, какая ты есть: сильной и удивительной 🥰';
+                } else if (currentNumber === 33) {
+                    message = 'Ты всегда найдёшь в себе силы подняться 💘';
+                } else if (currentNumber === 34) {
+                    message = 'Твоя душа красива, даже когда тебе кажется, что это не так 💝';
+                }else if (currentNumber === 35) {
+                    message = 'Помни: я здесь, я рядом, и я на твоей стороне. Всегда. 💫';
+                } else if (currentNumber === 36) {
+                    message = 'Я тебя люблю 💖';
+                } else if (currentNumber === 37) {
+                    message = 'Я верю в тебя, даже когда ты в себе сомневаешься 💞';
+                } else if (currentNumber === 38) {
+                    message = 'Я люблю тебя просто так, без всяких условий 💝';
+                } else if (currentNumber === 39) {
+                    message = 'Я рядом. Не держи всё в себе, поделись тяжестью 💗';
+                } else if (currentNumber === 40) {
+                    message = ' люблю тебя в любой твой день: солнечный или дождливый 🥰';
+                } else if (currentNumber === 41) {
+                    message = 'Я рядом, чтобы пройти через это вместе, шаг за шагом 🎀';
+                } else if (currentNumber === 42) {
+                    message = 'Я верю, что ты справишься, потому что ты уже не раз справлялась💖';
+                } else if (currentNumber === 43) {
+                    message = 'Я рядом. Дай мне руку, и мы пойдём дальше вместе 💘';
+                }else if (currentNumber === 44) {
+                    message = 'Я рядом. Я верю. Я люблю. И так будет всегда 🌟';
+                } else if (currentNumber === 45) {
+                    message = 'Я люблю твой смех — это самый лучший звук в моей вселенной 🥰';
+                } else if (currentNumber === 46) {
+                    message = 'Я рядом. Не бойся быть уязвимой 💞';
+                } else if (currentNumber === 47) {
+                    message = 'Этот день не определяет всю твою жизнь 🎀';
+                } else if (currentNumber === 48) {
+                    message = 'Я верю в твои руки, которые умеют создавать уют и добро 🌼';
+                } else if (currentNumber === 49) {
+                    message = 'Ты — мой самый важный человек💗';
+                } else if (currentNumber === 50) {
+                    message = 'Я люблю тебя сегодня, завтра и всегда 💞' ;
+                }
+                
+                resultDiv.innerHTML = `
+                    <br>
+                    <br>
+                    <br>  
+                    <div class="message">${message}</div>
+                `;
+                
+                resultDiv.classList.remove('highlight');
+                void resultDiv.offsetWidth; 
+                resultDiv.classList.add('highlight');
+                
+                const colors = [
+                    '#2196F3', '#f44336', '#4CAF50', '#FF9800', 
+                    '#9C27B0', '#00BCD4', '#795548', '#607D8B',
+                    '#8BC34A', '#FF5722',
+                    '#E91E63', '#9C27B0', '#673AB7', '#3F51B5',
+                    '#2196F3', '#03A9F4', '#00BCD4', '#009688',
+                    '#4CAF50', '#8BC34A', '#CDDC39', '#FFEB3B',
+                    '#FFC107', '#FF9800', '#FF5722', '#795548',
+                    '#9E9E9E', '#607D8B', '#F06292', '#BA68C8',
+                    '#9575CD', '#7986CB', '#64B5F6', '#4FC3F7',
+                    '#4DD0E1', '#4DB6AC', '#81C784', '#AED581',
+                    '#DCE775', '#FFF176', '#FFD54F', '#FFB74D',
+                    '#FF8A65', '#A1887F', '#90A4AE', '#FF6E40',
+                    '#18FFFF', '#69F0AE', '#B388FF', '#FF8A80'
+];
+                resultDiv.style.backgroundColor = colors[currentNumber - 1] + '20';
+                resultDiv.style.color = colors[currentNumber - 1];
+            });
+        });
+    </script>
 </body>
 </html>
