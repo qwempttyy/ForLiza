@@ -122,11 +122,11 @@ y{
     background-repeat: no-repeat; 
     
     background-position: center; 
-    background-size: 100px 50px;
+    background-size: 100px 35px;
     display: grid;
     text-align: center;
     width: 200px;
-    height: 65px;
+    height: 35px;
 }
 r{
     text-shadow: 
